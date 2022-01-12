@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Inter-Black;
+  src: url(/fonts/Inter/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/fonts/Inter/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(/fonts/Inter/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-ExtraLight;
+  src: url(/fonts/Inter/Inter-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url(/fonts/Inter/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(/fonts/Inter/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(/fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(/fonts/Inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Thin;
+  src: url(/fonts/Inter/Inter-Thin.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Bold;
+  src: url(/fonts/Manrope/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: Manrope-ExtraBold;
+  src: url(/fonts/Manrope/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Manrope-ExtraLight;
+  src: url(/fonts/Manrope/Manrope-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Light;
+  src: url(/fonts/Manrope/Manrope-Light.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Medium;
+  src: url(/fonts/Manrope/Manrope-Medium.ttf);
+}
+
+@font-face {
+  font-family: Manrope-Regular;
+  src: url(/fonts/Manrope/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: Manrope-SemiBold;
+  src: url(/fonts/Manrope/Manrope-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Bold;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-BoldItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-ExtraLight;
+  src: url(/fonts/Roboto_Mono/RobotoMono-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-ExtraLightItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Italic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Italic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Light;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Light.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-LightItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Medium;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Medium.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-MediumItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-SemiBold;
+  src: url(/fonts/Roboto_Mono/RobotoMono-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-SemiBoldItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-Thin;
+  src: url(/fonts/Roboto_Mono/RobotoMono-Thin.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono-ThinItalic;
+  src: url(/fonts/Roboto_Mono/RobotoMono-ThinItalic.ttf);
+}

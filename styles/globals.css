@@ -1,3 +1,99 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --nav-height: 4rem;
+  --nav-width: calc(100% - var(--nav-height));
+  --page-height: calc(100vh - var(--nav-height));
+  --min-page-height: calc(100vh - var(--nav-height) * 2);
+}
+
+html,
+body {
+  @apply bg-white p-0 m-0 font-body;
+}
+
+* {
+  @apply box-border;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-[Inter-Bold];
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply text-2xl;
+}
+
+h5 {
+  @apply text-xl;
+}
+
+h6 {
+  @apply text-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  @apply mb-4;
+}
+
+p {
+  @apply text-zinc-500;
+}
+
+button,
+input {
+  @apply rounded-md px-3.5 py-1.5;
+}
+
+button {
+  @apply !bg-black text-white;
+}
+
+input {
+  @apply border border-b-4 border-zinc-300;
+}
+
+input:focus {
+  @apply outline-dashed outline-2 outline-zinc-300;
+}
+
+form {
+  @apply flex flex-col;
+}
+
+form input:not(:last-of-type) {
+  @apply mb-4;
+}
+
+form button:last-of-type {
+  @apply mt-8 !bg-emerald-500 border border-b-4 border-emerald-600;
+}
+
+form label {
+  @apply mb-1 text-zinc-500;
+}
