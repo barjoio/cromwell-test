@@ -65,9 +65,14 @@ p {
   @apply text-zinc-500;
 }
 
+b {
+  @apply font-normal font-[Inter-SemiBold]
+}
+
 button,
-input {
-  @apply rounded-md px-3.5 py-1.5;
+input,
+._toast {
+  @apply rounded-md px-3.5 py-1.5 border border-b-4;
 }
 
 button {
@@ -75,7 +80,7 @@ button {
 }
 
 input {
-  @apply border border-b-4 border-zinc-300;
+  @apply border-zinc-300;
 }
 
 input:focus {
@@ -91,7 +96,7 @@ form input:not(:last-of-type) {
 }
 
 form button:last-of-type {
-  @apply mt-8 !bg-emerald-500 border border-b-4 border-emerald-600;
+  @apply mt-8 !bg-emerald-500 border-emerald-600;
 }
 
 form label {
