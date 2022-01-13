@@ -102,3 +102,7 @@ form button:last-of-type {
 form label {
   @apply mb-1 text-zinc-500;
 }
+
+table td {
+  @apply px-2;
+}

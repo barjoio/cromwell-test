@@ -54,7 +54,7 @@ const Header = () => {
             </div>
           </div>
           <div className="pointer-events-auto w-[var(--nav-height)] h-[var(--nav-height)] flex items-center justify-center">
-            <button onClick={() => setOpen(!open)}>
+            <button onClick={() => setOpen(!open)} className="border-none">
               <img src={open ? "close.svg" : "menu.svg"} alt="menu" />
             </button>
           </div>

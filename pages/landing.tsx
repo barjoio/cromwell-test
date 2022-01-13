@@ -5,31 +5,41 @@ import auth from "../util/auth";
 const Landing = () => {
   const [userData, setUserData] = useState<any>({});
 
-  useEffect(() => {
+  useEffect((): any => {
+    let isSubscribed = true;
     const getUserData = async () => {
       const userData = await fetch("/api/user").then((res) => res.json());
-      setUserData(userData?.success && userData.user);
+      isSubscribed && setUserData(userData?.success && userData.user);
     };
     getUserData();
-  });
+    return () => (isSubscribed = false);
+  }, []);
 
   return (
-    <Layout title="User">
+    <Layout title="Landing page">
       <h2 className="mb-8 sm:mb-16">Hello, you are logged in</h2>
-      <div>
-        <div>
-          <b>ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <span>{userData?.id}</span>
-        </div>
-        <div>
-          <b>Name:&nbsp;&nbsp;&nbsp;</b>
-          <span>{userData?.name}</span>
-        </div>
-        <div>
-          <b>Email:&nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <span>{userData?.email}</span>
-        </div>
-      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <b>ID:</b>
+            </td>
+            <td>{userData?.id}</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Name:</b>
+            </td>
+            <td>{userData?.name}</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Email:</b>
+            </td>
+            <td>{userData?.email}</td>
+          </tr>
+        </tbody>
+      </table>
     </Layout>
   );
 };
