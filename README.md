@@ -18,7 +18,9 @@
 
 `npm install`
 
-`npm run dev`
+then `npm run dev`
+
+or `npm run build` and `npm run start`
 
 Try it out at: https://cromwell.adamjones.io
 
@@ -42,13 +44,13 @@ Try it out at: https://cromwell.adamjones.io
 
 ### Redux
 
-Redux Toolkit is used to store a slice of state for the "toast" notification. This allows any page or component to activate the toast notification and set its message and variant.
+Redux Toolkit is used throughout the app, such as for the "toast" notification. This allows any page or component to activate the toast notification and set its message and variant.
 
 ### Database
 
-SQLite is used for the database. The Prisma ORM is used to interface with the database.
+SQLite is used for the database. The Prisma ORM library is used to interface with the database.
 
-Use `npm prisma studio` to view the database.
+Use `npm prisma studio` to view the database in your browser.
 
 ### Validation
 
