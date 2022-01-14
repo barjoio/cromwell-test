@@ -1,8 +1,7 @@
-import { useState } from "react";
-import Layout from "../components/Layout";
-import jwt from "jsonwebtoken";
-import { useDispatch } from "react-redux";
 import { useRouter } from "next/router";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import Layout from "../components/Layout";
 import { activateToast } from "../features/toast/Toast";
 import { toastVariant } from "../features/toast/toastSlice";
 
