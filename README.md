@@ -18,9 +18,15 @@
 
 `npm install`
 
-then `npm run dev`
+`npm run dev`
 
-or `npm run build` and `npm run start`
+or
+
+`npm install`
+
+`npm run build`
+
+`npm run start`
 
 Try it out at: https://cromwell.adamjones.io
 
