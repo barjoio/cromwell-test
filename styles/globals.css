@@ -72,7 +72,7 @@ b {
 button,
 input,
 ._toast {
-  @apply rounded-md px-3.5 py-1.5 border border-b-4;
+  @apply rounded-md px-3.5 py-1.5 border border-black border-b-4;
 }
 
 button {

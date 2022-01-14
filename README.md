@@ -1,9 +1,26 @@
 # Cromwell Tools - Digital Node Test
 
+
+## Contents
+
+- [Installation](#installation)
+- [Features](#features)
+  - [Pages](#pages)
+  - [REST API](#rest-api)
+  - [Redux](#redux)
+  - [Database](#database)
+  - [Validation](#validation)
+  - [JWT](#jwt)
+  - [Docker](#docker)
+  - [Responsive](#responsive)
+
 ## Installation
 
 `npm install`
+
 `npm run dev`
+
+Try it out at: https://cromwell.adamjones.io
 
 ## Features
 
@@ -46,6 +63,14 @@ JWTs are used to store user data and for authentication.
 The secret key used to sign tokens is stored in an environment variable in .env.local (in a real application this file wouldn't be uploaded to GitHub).
 
 JWTs are stored in an HTTP-Only cookie, meaning that client-side scripts cannot access it. This mitigates the risk of XSS attacks.
+
+### Docker
+
+Use the following commands to build and run the application as a Docker container.
+
+`sudo docker build -t cromwell-test .`
+
+`sudo docker run -p 8080:3000 cromwell-test:latest`
 
 ### Responsive
 
