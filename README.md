@@ -43,10 +43,10 @@ Try it out at: https://cromwell.adamjones.io
 
 | Name         | Description                                     | Method | Endpoint         |
 | ------------ | ----------------------------------------------- | ------ | ---------------- |
-| Login        | Logs the user in and sets a token cookie        | POST   | `/user/login`    |
-| Registration | Create an account for the user                  | POST   | `/user/register` |
-| Logout       | Logs the user out and unsets their token cookie | GET    | `/user/logout`   |
-| User         | Retrieves and returns the user's data           | GET    | `/user`          |
+| Login        | Logs the user in and sets a token cookie        | POST   | `/api/user/login`    |
+| Registration | Create an account for the user                  | POST   | `/api/user/register` |
+| Logout       | Logs the user out and unsets their token cookie | GET    | `/api/user/logout`   |
+| User         | Retrieves and returns the user's data           | GET    | `/api/user`          |
 
 ### Redux
 
@@ -56,7 +56,7 @@ Redux Toolkit is used throughout the app, such as for the "toast" notification. 
 
 SQLite is used for the database. The Prisma ORM library is used to interface with the database.
 
-Use `npm prisma studio` to view the database in your browser.
+Use `npx prisma studio` to view the database in your browser.
 
 ### Validation
 
